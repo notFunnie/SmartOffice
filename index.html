@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <div class="text-center margin-top" id="toggleLightButton">
+      <button type="button" name="button">Toggle Light</button>
+    </div>
+  <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAIp_agdbE0S6tqdTNWXk_ny9-YxQSIJsY",
+      authDomain: "remotelightswitch-97376.firebaseapp.com",
+      databaseURL: "https://remotelightswitch-97376.firebaseio.com",
+      projectId: "remotelightswitch-97376",
+      storageBucket: "remotelightswitch-97376.appspot.com",
+      messagingSenderId: "411332933156"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script type="text/javascript" src="assets/js/script.js"></script>
+  </body>
+</html>
