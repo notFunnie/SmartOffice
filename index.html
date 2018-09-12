@@ -7,7 +7,16 @@
   </head>
   <body>
     <div class="text-center margin-top" id="toggleLightButton">
+      <h2>Office Temperature: <span id="temp"></span></h2>
+      <h2>Office Humidity: <span id="humidity"></span></h2>
+      <h2>Office Heat Index: <span id="head-index"></span></h2>
       <button type="button" name="button">Toggle Light</button>
+    </div>
+    <div class="text-center margin-top">
+      <span>
+        <input type="text" name="" value="" id="writeLCD" maxlength="16">
+        <button type="button" name="button" id="textWriteButton">Output to Office LCD</button>
+      </span>
     </div>
   <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
   <script>
